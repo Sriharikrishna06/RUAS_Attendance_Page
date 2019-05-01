@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RUAS Attendance marker</title>
+    <link type="text/css" rel="stylesheet" href="Styles.css"></link>
+    <script type="text/javascript" src="assets/qrcode.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.11.0/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyBw0HZZlDDTgHgfoJkhHPshpsVxO04gcJM",
+            authDomain: "ruasportal.firebaseapp.com",
+            databaseURL: "https://ruasportal.firebaseio.com",
+            projectId: "ruasportal",
+            storageBucket: "ruasportal.appspot.com",
+            messagingSenderId: "391203124371"
+        };
+        firebase.initializeApp(config);
+    </script>
+</head>
+<body>
+    <header id="main-header">
+    </header>
+    <div class="qr_bg"></div>
+    <div class="QR_image"></div>
+    <div id="text">Click button to Start Generating QR Codes</div>
+    <div id="Generate">Generate</div>
+    <div id="timtxt">Countdown:</div>
+    <div id="timer">0:10</div>
+    <div class="warning">
+        <img src="assets/Layer%201.png">
+        Warning! QR Code changes every 10 seconds to avoid falsification of attendance
+    </div>
+    <script type="text/javascript" src="Scripting.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+
+body {
+    margin: 0;
+}
+#main-header{
+    background-image: url("../RUAS Attendance Page/assets/Header.png");
+    width: 1535px;
+    height: 181px;
+}
+
+/*.qr_bg {
+    background-image: url("../RUAS Attendance Page/assets/QR_BG.png");
+    width: 464px;
+    height: 352px;
+    position: absolute;
+    top: 40%;
+    left: 34%;
+}*/
+
+.QR_image {
+    position: absolute;
+    top: 350px;
+    left: 600px;
+    alignment: center;
+}
+
+#Generate{
+    position: relative;
+    width: 100px;
+    height: 20px;
+    top: 20px;
+    left: 700px;
+    border: 1px solid #c3bebe;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    list-style: none;
+    font-family: Oxygen;
+    background-color: white;
+}
+
+#Generate:hover {
+    background-color: #F3F3F3;
+    cursor: pointer;
+}
+
+#text {
+    position: relative;
+    top: 10px;
+    left: 670px;
+    font-family: Oxygen;
+    font-size: 10px;
+}
+
+.warning{
+    position: absolute;
+    top: 650px;
+    left: 530px;
+    font-family: Oxygen;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+#timer {
+    font-family: Oxygen;
+    font-size: 200px;
+    position: absolute;
+    top: 350px;
+    left: 65px;
+    color: #999999;
+}
+
+#timtxt{
+    font-family: Oxygen;
+    font-size: 45px;
+    position: absolute;
+    top: 320px;
+    left: 110px;
+    color: #999999;
+}
